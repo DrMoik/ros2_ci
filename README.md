@@ -53,4 +53,4 @@ xhost +local:root
     ```bash
       echo "$(jenkins_address)github-webhook/"
     ```
-  Go to https://github.com/DrMoik/ros1¿2_ci/ Copy and paste the ouput on the file webhook.txt and create a pull_request
+  Go to https://github.com/DrMoik/ros2_ci/ Copy and paste the ouput on the file webhook.txt and create a pull_request
