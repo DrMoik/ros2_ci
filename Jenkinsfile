@@ -11,7 +11,7 @@ pipeline {
                             sh 'git clone https://github.com/DrMoik/ros2_ci.git'
                         } else {
                             dir('ros2_ci') {
-                                sh 'git pull origin main'
+                                sh 'git pull origin master'
                             }
                         }
                     }
